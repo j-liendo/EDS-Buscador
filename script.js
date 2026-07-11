@@ -37,9 +37,9 @@ function buscarInmueble() {
                 const currentCodigo = columnas[0].trim().toUpperCase();
 
                 if(currentCodigo === codigo) {
-                    const agente = columnas[5].trim();
-                    const tlfnoRaw = columnas[6].trim();
-                    const oficina = columnas[7].trim();
+                    const agente = columnas[6].trim();
+                    const tlfnoRaw = columnas[7].trim();
+                    const oficina = columnas[8].trim();
 
                     // Formatear el teléfono para WhatsApp (limpiar espacios/guiones)
                     let cleanPhone = tlfnoRaw.replace(/\D/g, '');
